@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 id="myName">Valand sanjay</h1>
+    </div>
+    
+    <div class="header">
+        <div>
+            <p id="p1" class="head1 turn">PLAYER 1 : X</p> <input type="text" placeholder="Enter Player 1 Name" id="player1">
+        </div>
+        <div>
+            <p id="p2" class="head2">PLAYER 2 : O</p> <input type="text" placeholder="Enter Player 2 Name" id="player2">  
+        </div>
+    </div>
+
+    <div class="board">
+        <button class="btn1 bt" onclick="enter('btn1')" id="btn1"></button>
+        <button class="btn2 bt" onclick="enter('btn2')" id="btn2"></button>
+        <button class="btn3 bt" onclick="enter('btn3')" id="btn3"></button>
+        <button class="btn4 bt" onclick="enter('btn4')" id="btn4"></button>
+        <button class="btn5 bt" onclick="enter('btn5')" id="btn5"></button>
+        <button class="btn6 bt" onclick="enter('btn6')" id="btn6"></button>
+        <button class="btn7 bt" onclick="enter('btn7')" id="btn7"></button>
+        <button class="btn8 bt" onclick="enter('btn8')" id="btn8"></button>
+        <button class="btn9 bt" onclick="enter('btn9')" id="btn9"></button>
+    </div>
+    <div class="footer">
+        <h1 id="result">Result : </h1>
+        <button class="reset" onclick="resetBoard()">RESET</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
